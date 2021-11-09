@@ -45,12 +45,12 @@
 // fruits[1] = lime;
 // document.getElementById("demo2").innerHTML = fruits; //banana,lime,apple
 //splice()
-// const fruits = ["banana", "lemon", "kiwi"];
-// document.getElementById("demo1").innerHTML = fruits;
-// fruits.splice(2, 0, "nutmeg", "lime");
-// document.getElementById("demo2").innerHTML = fruits;
-// console.log(fruits);
-//concat()
+const fruits = ["banana", "lemon", "kiwi"];
+document.getElementById("demo1").innerHTML = fruits;
+fruits.splice(2, 0, "nutmeg", "lime");
+document.getElementById("demo2").innerHTML = fruits;
+console.log(fruits);
+concat();
 const cars = ["subaru", "cresta", "vitz"];
 const names = ["aisha", "issra", "zainab"];
 const carNames = cars.concat(names);
