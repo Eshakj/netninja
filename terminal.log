@@ -1,0 +1,15 @@
+VM282:1 i just got declared
+VM553:2 my fav colors are ${color1} and ${color2}
+VM950:1 i am uranus i am pluto
+function sijuui(){ console.log("upuuzi tu"};
+VM1103:1 Uncaught SyntaxError: missing ) after argument list
+function sijuuui(){ console.log("upuuzi tu")};
+undefined
+sijuuui();
+VM1112:1 upuuzi tu
+undefined
+const cons = function (casi){ console.log(`upuuzi mwingine kama ${casi}`);};
+undefined
+cons("mimi");
+VM1297:1 upuuzi mwingine kama mimi
+undefined

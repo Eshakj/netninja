@@ -1,0 +1,23 @@
+let a = document.querySelector("p");
+console.log(a);
+let b = document.getElementById("yeah");
+console.log(b);
+let c = document.getElementsByClassName("lol");
+console.log(c);
+let d = document.querySelectorAll("p.lal");
+console.log(d);
+let e = document.getElementsByTagName("p");
+console.log(e);
+let f = document.getElementsByTagName("p");
+console.log(f[1]);
+let g = document.querySelector(".lol");
+console.log(g.innerText);
+g.innerText = "yeah i do,so what?";
+console.log(g.innerText);
+g.innerText += "sawa sawa";
+console.log(g.innerText);
+const h = document.querySelectorAll(".ok");
+h.forEach((h) => {
+  h.innerText += " okurrr";
+  console.log(h.innerText);
+});
